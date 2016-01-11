@@ -8,6 +8,7 @@
 
 import UIKit
 import AFNetworking
+import EZLoadingActivity
 
 class MoviesViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
 

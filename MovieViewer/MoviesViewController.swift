@@ -12,10 +12,11 @@ import EZLoadingActivity
 
 class MoviesViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
 
-    var refreshControl: UIRefreshControl!
+    
 
     @IBOutlet weak var tableView: UITableView!
     var movies: [NSDictionary]?
+    var refreshControl: UIRefreshControl!
     
     override func viewDidLoad() {
         super.viewDidLoad()

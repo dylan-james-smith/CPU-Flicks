@@ -1,5 +1,5 @@
 //
-//  MovieCell.swift
+//  MovieListCell.swift
 //  MovieViewer
 //
 //  Created by Dylan on 1/6/16.
@@ -8,13 +8,16 @@
 
 import UIKit
 
-class MovieCell: UITableViewCell {
+class MovieListCell: UITableViewCell {
     @IBOutlet weak var titleLabel: UILabel!
     @IBOutlet weak var overviewLabel: UILabel!
     @IBOutlet weak var posterView: UIImageView!
 
     override func awakeFromNib() {
         super.awakeFromNib()
+        
+        self.layoutMargins = UIEdgeInsetsZero
+        self.preservesSuperviewLayoutMargins = false
         // Initialization code
     }
 

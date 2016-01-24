@@ -65,7 +65,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1617" y="-614"/>
+            <point key="canvasLocation" x="-1085" y="-614"/>
         </scene>
         <!--Detail View Controller-->
         <scene sceneID="ZCf-QJ-7ru">
@@ -113,9 +113,7 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" id="78Q-pq-kFm">
-                        <barButtonItem key="backBarButtonItem" title="Movie List" id="Sf8-WK-8xD"/>
-                    </navigationItem>
+                    <navigationItem key="navigationItem" id="78Q-pq-kFm"/>
                     <connections>
                         <outlet property="detailsView" destination="zKL-d4-w5D" id="9fq-m2-2Wx"/>
                         <outlet property="overviewLable" destination="Quu-fe-hnj" id="zJi-PZ-s64"/>
@@ -126,7 +124,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="XvD-4m-YiT" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1176" y="-614"/>
+            <point key="canvasLocation" x="-644" y="-614"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="o0i-WL-CaR">
@@ -144,7 +142,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hND-tP-VGq" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-2149" y="-614"/>
+            <point key="canvasLocation" x="-1617" y="-614"/>
         </scene>
     </scenes>
 </document>

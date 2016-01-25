@@ -64,7 +64,9 @@ class MoviesViewController: UIViewController, UITableViewDataSource, UITableView
         //Display activity indicator while retrieving data from api
         EZLoadingActivity.show("Downloading...", disableUI: false)
         let apiKey = "a07e22bc18f5cb106bfe4cc1f83ad8ed"
-//        let endpoint = "now_playing"
+        // nil coalescing test 
+        let endpoint  = self.endpoint ?? "top_rated"
+        
         let url = NSURL(string:"https://api.themoviedb.org/3/movie/\(endpoint)?api_key=\(apiKey)")
         let request = NSURLRequest(URL: url!)
         let session = NSURLSession(
@@ -134,7 +136,7 @@ class MoviesViewController: UIViewController, UITableViewDataSource, UITableView
         detailViewController.movie = movie
         
         
-        print("Segue prepared and sending")
+        print("Segue")
         // Get the new view controller using segue.destinationViewController.
         // Pass the selected object to the new view controller.
     }

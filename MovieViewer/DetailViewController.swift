@@ -29,7 +29,7 @@ class DetailViewController: UIViewController {
         overviewLable.sizeToFit()
         
      //Set Detail View size to fit so scroll height shows all details
-        detailsView.frame.size.height = overviewLable.frame.size.height + 75
+        detailsView.frame.size.height = overviewLable.frame.size.height + 120
         
         scrollView.contentSize = CGSize(width: scrollView.frame.size.width , height: detailsView.frame.origin.y + detailsView.frame.size.height)
         
@@ -37,6 +37,7 @@ class DetailViewController: UIViewController {
         if let posterPath = movie["poster_path"] as? String{
             let imageUrl = NSURL(string: baseUrl + posterPath)
             posterImageView.setImageWithURL(imageUrl!)
+//            print(imageUrl)
         }
         
         // Do any additional setup after loading the view.

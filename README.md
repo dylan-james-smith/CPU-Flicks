@@ -83,14 +83,14 @@ The following **additional** features are implemented:
 
 Please list two areas of the assignment you'd like to **discuss further with your peers** during the next class (examples include better ways to implement something, how to extend your app in certain ways, etc):
 
-1. 
-2. 
+1. Tracking down typos and generic errors (don't code too tired)
+2. github intigration with xcode (paste in https under remotes)
 
 ## Video Walkthrough 
 
 Here's a walkthrough of implemented user stories:
 
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+![Walkthrough - CPU-Flicks](walkthrough2.gif)
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
@@ -98,9 +98,12 @@ GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
 Describe any challenges encountered while building the app.
 
+While I was trying to wrap things up before falling a sleep I chose the wrong autocomplete, but it didn't cause an error until trying to run the app. I knew where the error should be, but it took a very long time to finally see the typo and solve the problem. 
+This was frustrating, but did make me research more and fleshed out my troubleshooting skills.
+
 ## License
 
-Copyright [yyyy] [name of copyright owner]
+Copyright 2016 Dylan James Smith
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
